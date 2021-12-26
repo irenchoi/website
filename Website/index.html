@@ -4,24 +4,91 @@
         <meta charset="UTF-8">
         <meta name-="viewport" content="width=device-width, initial-scale= 1.0">
         <title>Irene's First Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css.css">
     </head>
     <body>
         <div class="section-header">
             <header>
-                <a href="index.html" class="main"> Irene Choi </a>
-                <nav>
-                    <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">My Work</a></li>
-                        <li><a href="#">Education </a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
-                </nav>
-
+                <nav class="navbar navbar-expand-lg navbar-light test">
+                    <div class="container-fluid">
+                      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Irene Choi</a>
+                              </li>
+                          </ul>
+                        <ul class="navbar-nav navbar-right ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">My Work</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Education</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a> 
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </header>
-
         </div>
 
+        <div class="introduce-me">
+            <h1> Hi, my name is Irene Choi. </h1>
+            <h2> I am a 1A computer science student at the University of Waterloo</h2>
+            <h2> Explore the website to learn more about me!</h2>
+        </div>
+
+        <div class="about-me">
+            <img id="image" src="hi.jpg">
+            <h3> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis nisi et est sollicitudin sagittis. 
+                Integer facilisis a sapien imperdiet semper. Ut molestie enim quam, in consectetur lacus euismod vitae. 
+                Quisque congue sodales tincidunt. Nulla varius nulla nec ante molestie, quis consectetur metus vestibulum. 
+                Sed suscipit faucibus dignissim. Pellentesque neque turpis, lobortis a eros quis, lacinia malesuada diam. Quisque ut blandit diam. Quisque sollicitudin lobortis orci. In hac habitasse platea dictumst. Integer tempor dapibus sem vulputate euismod. Praesent at nulla mi. Fusce risus magna, varius id bibendum ullamcorper, aliquet ut libero. Donec et augue dictum, lacinia ipsum nec, auctor orci. Morbi quis varius neque. Vestibulum in dui quam. Vestibulum nec risus a libero rutrum bibendum ac vel urna. Aliquam maximus placerat ex id laoreet. Vestibulum semper lectus nec viverra viverra. Duis et vulputate arcu. Fusce bibendum, urna sed sagittis molestie, sem erat commodo erat, non ultrices augue orci vitae turpis. Praesent placerat purus nunc, nec fermentum nibh accumsan a. In tortor felis, dictum id pretium quis, bibendum et metus. Nam mollis mi eget leo vehicula, ac tincidunt augue rutrum. Nullam a felis mattis, volutpat orci a, iaculis urna. Proin facilisis dapibus ex, non malesuada tellus auctor nec.
+            </h3>
+        </div>
+
+        <div class="my-work">
+            <h1> To be updated.</h1>
+        </div>
+
+        <div class="education">
+            <h1> My Education Background</h1>
+            <div class="waterloo">
+                <h3>Computer Science @ University of Waterloo </h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis nisi et est sollicitudin sagittis. </li>
+                    <li>Integer facilisis a sapien imperdiet semper. Ut molestie enim quam, in consectetur lacus euismod vitae.</li>
+                    <li> CAV: 00 (MAV: 00)</li>
+                </ul>
+            </div>
+            <div class="highschool">
+                <h3>Applewood Heights Secondary School</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis nisi et est sollicitudin sagittis. </li>
+                    <li>Integer facilisis a sapien imperdiet semper. Ut molestie enim quam, in consectetur lacus euismod vitae.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-me">
+            <a href= "https://www.instagram.com/ireneeechoi/" > <img src="ig.png"></a>
+            <a href= "https://www.facebook.com/yunyoung.choi.5621"> <img src="facebook.png"></a>
+            <a href= "mailto:ychoi6422@gmail.com"><img src="email.png"></a>
+        </div>
     </body>
 </html>

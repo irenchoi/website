@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.navbar{
+
+    padding:40px 0px;
+
+}
+
+.container-fluid{
+  background-color: #eed9ff;  
+}
+
+.test{
+    background-color: #eed9ff; 
+}
+
+.nav-item{
+    margin:0px 10px;
+
+}
+
+.introduce-me{
+    height:70vh;
+}
