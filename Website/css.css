@@ -10,11 +10,11 @@ body{
 }
 
 .container-fluid{
-  background-color: #eed9ff;  
+  background-color: #f7eeff;  
 }
 
 .test{
-    background-color: #eed9ff; 
+    background-color: #f7eeff; 
 }
 
 .nav-item{
@@ -24,4 +24,51 @@ body{
 
 .introduce-me{
     height:70vh;
+    background-color: #f7eeff; 
+    padding-left:7vw;
+    padding-top:5vh; 
+}
+
+#intro{
+    padding-bottom:5vh;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+.wrap{
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 12% 75%, 0 100%, 0 75%, 0% 75%);
+    background-color: white;
+    width:80%;
+    padding-left:2vw;
+    padding-top:5vh;
+    padding-bottom: 20vh;
+    border-radius: 10px;
+}
+
+
+.about-me{
+    font-family:'Nunito', sans-serif;
+}
+.about-me h3{
+    font-weight: 800;
+    font-size:3rem;
+    padding-bottom:3vh;
+}
+.wrapper{
+    padding-top:13vh;
+    padding-left:5vw;
+    padding-bottom:13vh;
+}
+
+#picture{
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30vh;
+}
+
+.test2{
+    background-color: #fbdeff;
 }
