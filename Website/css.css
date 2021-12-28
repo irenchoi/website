@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #eff8e2;
+    background-color: white;
 }
 
 
@@ -200,7 +200,7 @@ body{
     position: relative;
     width:270px;
     height:450px;
-    top: 164px;
+    top: 165px;
     left: 215px;
   }
 
@@ -209,5 +209,123 @@ body{
       width:100px;
       top:300px;
       right:50px;
+      opacity:0;
       transition:.5s ease;
+  }
+
+  .image4{
+      position:relative;
+      width:250px;
+      right:100px;
+      opacity:0;
+      transition:0.5s ease;
+  }
+
+  .outside:hover .image3{
+      opacity:1;
+  }
+  .outside:hover .image4{
+    opacity:1;
+  }
+
+  /* .my-work h1{
+      font-family: 'PT Sans', sans-serif;
+      justify-content: left;
+      font-weight: 900;
+      overflow:hidden;
+      white-space:nowrap;
+      margin: 0 auto;
+      border-right: 0.3rem solid purple;
+      animation:
+      typer 4.5s steps(30, end),
+      cursor 0.75s step-end infinite;
+  }
+
+  @keyframes typer{
+      from {width: 0%}
+      to {width: 100%}
+  }
+
+  @keyframes cursor{
+    from, to { border-color: transparent }
+    50% { border-color: purple; }
+  } */
+
+  .my-work h1{
+    font-family: 'PT Sans', sans-serif;
+    justify-content: left;
+    font-weight: 900;
+    padding-top: 3vh;
+
+  }
+
+  .my-work{
+      background-color: rgb(255, 209, 237);
+      padding-left:5vw;
+  }
+
+  .my-work h3{
+      padding-top:250px;
+      padding-bottom: 250px;
+      padding-left:30%
+  }
+
+  .education{
+      background-color: rgb(213, 239, 255);
+      padding-left:5vw;
+      padding-bottom:20vh;
+  }
+
+  .education h1{
+    font-family: 'PT Sans', sans-serif;
+    justify-content: left;
+    letter-spacing:3px;
+    font-weight: 900;
+    padding-top: 5vh;
+    padding-bottom:2vh;
+  }
+
+  .waterloo{
+      border : 3px solid rgb(5, 5, 83);
+      background-color: white;
+      padding-right:5vw;
+      width:80%;
+      padding-top:2vh;
+      padding-left:2vw;
+      border-radius: 15px;
+      box-shadow:5px 10px 18px rgb(171, 215, 241);
+  }
+
+  .highschool{
+    border : 3px solid rgb(5, 5, 83);
+    margin-top:20px;
+    background-color: white;
+    padding-right:5vw;
+    width:80%;
+    padding-top:2vh;
+    padding-left:2vw;
+    border-radius: 15px;
+    box-shadow:5px 10px 18px rgb(171, 215, 241); 
+  }
+
+  #facebook{
+      font-size:48px;
+      color:dodgerblue;
+  }
+
+  #instagram{
+      font-size:48px;
+      background: -webkit-linear-gradient(rgb(231, 124, 187), rgb(248, 102, 34));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+
+  #email{
+    font-size:48px;
+    color:red;
+  }
+
+  div.emoji{
+      text-align: center;
   }
